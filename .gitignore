@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+artifacts/
+.pytest_cache/
+
+# Read-only reference clone of the original dissertation code (see
+# AGENTS.md "Origin & provenance") - has its own .git, not part of this
+# project's own history. Clone separately from the URL in AGENTS.md if needed.
+source-repo/
+
+# Claude Code session-local tooling state, not project source.
+.claude/scheduled_tasks.lock
